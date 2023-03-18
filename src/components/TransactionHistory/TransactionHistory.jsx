@@ -31,6 +31,6 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-TransactionHistory.prototype = {
+TransactionHistory.propType = {
   items: PropTypes.arrayOf(PropTypes.shape),
 };
