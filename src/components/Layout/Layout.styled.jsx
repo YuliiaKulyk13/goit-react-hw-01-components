@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 
 export const Layout = styled.div`
+  height: '100vh';
+  padding: 60px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 100px;
-  padding: 50px;
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontSize: 40,
-    color: '#010101',
 `;
